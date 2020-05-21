@@ -1,39 +1,177 @@
 
-  body{
-      width: 80%;
-      text-align: center;
-  }
-  header,footer{
-      padding: 20px;
-  }
-  /* ---------HEADER-------- */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Manuale&family=Oswald:wght@700&family=Yellowtail&display=swap');
+
+body{
+    font-family: 'Manuale', serif;
+}
+nav{
+    width: 100%;
+    /* padding: 20px; */
+}
+#rss{
+    margin-left: 20px;
+}
+main{
+    width: 100%;
+}
+
+/* ---------HEADER-------- */
 header div {
-    display: inline-block;
+  display: inline-block;
 }
 header h1{
-    margin: 0;
+    font-family: 'Yellowtail', cursive;
+  margin: 0;
 }
 header p {
-    margin: 0;
+  margin: 0;
 }
 #socialMedia-div{
-    float: right;
+  float: right;
 }
 div.stripes {
-    height: 10px;
-    width: 90%;
-    background-image: linear-gradient(45deg, #bdbdbd 25%, transparent 25%, transparent 50%, #bdbdbd 50%, #bdbdbd 75%, transparent 75%, #fff);
-    background-size: 5px 5px;
-  }
+    margin-top: 20px;
+  height: 10px;
+  width: 100%;
+  background-image: linear-gradient(45deg, #bdbdbd 25%, transparent 25%, transparent 50%, #bdbdbd 50%, #bdbdbd 75%, transparent 75%, #fff);
+  background-size: 5px 5px;
+}
 
 
 
 
 
 
-  /* ---------MAIN-------- */
+/* ---------MAIN-------- */
+#mainHead h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+#mainHead h2{
+font-size: 15px;
+margin: 0;
+color:rgb(177, 174, 174);
 
-  /* ---------FOOTER-------- */
-  footer{
-      text-align: center;
-  }
+
+}
+#print{
+    float: right;
+    /* display: inline-block; */
+    font-size: xx-small;
+    color: rgb(177, 174, 174);
+}
+#print h3{
+    display: inline-block;
+    font-weight: lighter;
+}
+#paragrph {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    
+}
+#paragrph img{
+    width: 100%;
+    
+    margin: 30px auto;
+}
+#paragrph p{
+    color: #5e5d5d;
+    white-space: normal;
+    
+
+}
+#field{
+    height: max-content;
+    width: 100%;
+    font-size: 40px;
+    margin: 100px 0;
+    font-family: cursive;
+
+}
+#field img{
+   position: absolute;
+    z-index: -1;
+    top: auto;
+    width: 100%;
+    margin: 30px 0;
+}
+#field div label{
+    display: block;
+}
+#field div {
+    /* display: block; */
+    display: inline-block;
+    width: max-content;
+    margin: 30px 0 30px 80px;
+    
+}
+fieldset{
+    width:100%  
+}
+
+
+/* ---------FOOTER-------- */
+footer{
+    width: 100%;
+}
+#first div{
+    display: inline-block;
+    width: 100%;  
+}
+
+footer section button{
+    float: right;
+    margin: 20px;
+    
+}
+footer section img{
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+#second {
+    width: 100%;
+
+}
+#second p {
+
+    text-align: center;
+    border:  oldlace;
+}
+#second hr{
+    position: absolute;
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+button{
+    background-color: rgb(165, 58, 58);
+    height: 80px;
+    width: 250px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-size: large;
+    color:white;
+    border:none;
+
+
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+}  
+    .hr-line {
+      width: 100%;
+      position: relative;
+      margin: 15px;
+      border-bottom: 1px solid #000;
+    }
+    .hr-icon {
+      position: relative;
+      top: 3px;
+      color: #ff0000;
+    }
