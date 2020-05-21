@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Manuale&family=Oswald:wght@700&family=Yellowtail&display=swap');
+
+body{
+    font-family: 'Manuale', serif;
+}
+nav{
+    width: 100%;
+    /* padding: 20px; */
+}
+#rss{
+    margin-left: 20px;
+}
+main{
+    width: 100%;
+}
+
+/* ---------HEADER-------- */
+header div {
+  display: inline-block;
+}
+header h1{
+    font-family: 'Yellowtail', cursive;
+  margin: 0;
+}
+header p {
+  margin: 0;
+}
+#socialMedia-div{
+  float: right;
+}
+div.stripes {
+    margin-top: 20px;
+  height: 10px;
+  width: 100%;
+  background-image: linear-gradient(45deg, #bdbdbd 25%, transparent 25%, transparent 50%, #bdbdbd 50%, #bdbdbd 75%, transparent 75%, #fff);
+  background-size: 5px 5px;
+}
+
+
+
+
+
+
+/* ---------MAIN-------- */
+#mainHead h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+#mainHead h2{
+font-size: 15px;
+margin: 0;
+color:rgb(177, 174, 174);
+
+
+}
+#print{
+    float: right;
+    /* display: inline-block; */
+    font-size: xx-small;
+    color: rgb(177, 174, 174);
+}
+#print h3{
+    display: inline-block;
+    font-weight: lighter;
+}
+#paragrph {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    
+}
+#paragrph img{
+    width: 100%;
+    
+    margin: 30px auto;
+}
+#paragrph p{
+    color: #5e5d5d;
+    white-space: normal;
+    
+
+}
+#field{
+    height: max-content;
+    width: 100%;
+    font-size: x-large;
+    margin: 100px 0;
+
+}
+#field img{
+   position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin: 30px 0;
+}
+#field div label{
+    display: block;
+}
+#field div {
+    /* display: block; */
+    display: inline-block;
+    width: 40%;
+    margin: 30px 0 30px 80px;
+    
+}
+fieldset{
+    width:100%  
+}
+
+
+/* ---------FOOTER-------- */
+footer section button{
+    float: right;
+    /* display:inline-block; */
+}
+footer section img{
+    float: left;
+    margin: 10px 20px 10px 0;
+
+}
+#second{
+    text-align: center;
+    color: rgb(153, 153, 153);
+}
+#second hr{
+    position: absolute;
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+button{
+    background-color: red;
+    height: 50px;
+    width: 180;
+
+}
