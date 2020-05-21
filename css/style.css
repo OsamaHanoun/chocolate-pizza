@@ -86,13 +86,15 @@ color:rgb(177, 174, 174);
 #field{
     height: max-content;
     width: 100%;
-    font-size: x-large;
+    font-size: 40px;
     margin: 100px 0;
+    font-family: cursive;
 
 }
 #field img{
    position: absolute;
     z-index: -1;
+    top: auto;
     width: 100%;
     margin: 30px 0;
 }
@@ -102,7 +104,7 @@ color:rgb(177, 174, 174);
 #field div {
     /* display: block; */
     display: inline-block;
-    width: 40%;
+    width: max-content;
     margin: 30px 0 30px 80px;
     
 }
@@ -112,18 +114,32 @@ fieldset{
 
 
 /* ---------FOOTER-------- */
+footer{
+    width: 100%;
+}
+#first div{
+    display: inline-block;
+    width: 100%;  
+}
+
 footer section button{
     float: right;
-    /* display:inline-block; */
+    margin: 20px;
+    
 }
 footer section img{
     float: left;
     margin: 10px 20px 10px 0;
+}
+
+#second {
+    width: 100%;
 
 }
-#second{
+#second p {
+
     text-align: center;
-    color: rgb(153, 153, 153);
+    border:  oldlace;
 }
 #second hr{
     position: absolute;
@@ -132,8 +148,30 @@ footer section img{
     margin-left: 10%;
 }
 button{
-    background-color: red;
-    height: 50px;
-    width: 180;
+    background-color: rgb(165, 58, 58);
+    height: 80px;
+    width: 250px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-size: large;
+    color:white;
+    border:none;
+
 
 }
+
+.hr-theme-slash-2 {
+    display: flex;
+}  
+    .hr-line {
+      width: 100%;
+      position: relative;
+      margin: 15px;
+      border-bottom: 1px solid #000;
+    }
+    .hr-icon {
+      position: relative;
+      top: 3px;
+      color: #ff0000;
+    }
+  
